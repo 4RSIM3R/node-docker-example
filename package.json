@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
     },
     "repository": {
         "type": "git",
@@ -17,5 +18,7 @@
         "url": "https://github.com/4RSIM3R/node-docker-example/issues"
     },
     "homepage": "https://github.com/4RSIM3R/node-docker-example#readme",
-    "dependencies": {}
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
