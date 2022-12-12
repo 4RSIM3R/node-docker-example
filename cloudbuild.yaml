@@ -1,7 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/ilzam/nodean:1.0.0', '.']
+  args: ['build', '-t', 'eu.gcr.io/$PROJECT_ID/nodean:1.0.0', '.']
 options:
   logging: CLOUD_LOGGING_ONLY
-images:
-- 'gcr.io/ilzam/nodean:1.0.0'
+images: [eu.gcr.io/$PROJECT_ID/nodean:1.0.0]
